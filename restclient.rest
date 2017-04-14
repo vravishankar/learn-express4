@@ -1,0 +1,12 @@
+POST http://localhost:3000/api/customers HTTP/1.1
+content-type: application/json
+
+{
+    "first_name": "sample",
+    "last_name": "test",
+    "email" : "sample.test@example.com"
+}
+ 
+GET http://localhost:3000/api/customers/58d92c3ceb3bbf7638ae213a
+
+GET http://localhost:3000/api/customers
